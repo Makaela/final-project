@@ -1,3 +1,14 @@
+
+body {
+    background-color: pink;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+}
+ button {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 /* Style the tab buttons */
 .tablink {
     background-color: #555;
@@ -10,7 +21,9 @@
     font-size: 17px;
     width: 16.6%;
 }
-
+#ori {
+  float: right;
+}
 /* Change background color of buttons on hover */
 .tablink:hover {
     background-color: #777;
@@ -27,14 +40,15 @@
 /* Style each tab content individually */
 #Cyber {background-color:crimson;}
 #Support {background-color:orangered;}
-#Connect {background-color:gold;}
+#Connect {background-color:orange;}
 #Pup {background-color:springgreen;}
 #Donate {background-color:turquoise;}
 #Sign {background-color:darkmagenta;}
 
 
 h1 {
-  font-family: "Dotumn", Arial;
   margin-left: 1.5in;
 font-size: 80px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+display:inline;
 }
